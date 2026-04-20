@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta https-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<title>pexlays</title>
+<style>
+body {position :absolute ; background-color :rgb(200,180,230); width:90%; height:90%;}
+		div { position : absolute;}
+		form { position : absolute;}
+</style></head>
+<body>
+<div id="crit" style=" width:90%; height:90%;" >
+</div>
+<div id="w" style=" width:30%; height:90%;" >
+<button id="in" onclick='cl("LINKinscription",this,"co")' style="position : absolute;top:10%;left:10%;font-size:44px;">Inscription</button>
+<br/>
+<button id="co" onclick='cl("LINKconnexion",this,"in")' style="position : absolute;top:30%;left:10%;font-size:44px;">Connexion</button>
+</div>
+<script>
+var st2 = document.getElementById("crit");
+function cl (ev, ide, ofs) {
+document.getElementById(ofs).style.color = "red";
+ide.style.color = "green";
+var st = document.createElement('script');
+st.src = ev;
+st2.appendChild(st);
+}
+</script>
+</body>
+</html>
+                                  

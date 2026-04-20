@@ -1,0 +1,13 @@
+st2.innerHTML = `<div style="height:80%;width:80%;" id="log-menu">
+<form style="height:80%;width:80%;" action= "LINKinscription" method="post" class="log-form">
+
+<label for="name" style="position : absolute;top:15%;left:80%;font-size:24px;">Entrer son pseudo: </label>
+<input style="position : absolute;top:30%;left:80%;font-size:24px;" type="text" name="name" id="log-name" required />
+
+<label for="password" style="position : absolute;top:45%;left:80%;font-size:24px;">Entrer son mot de passe : </label>
+<input style="position : absolute;top:60%;left:80%;font-size:24px;" type="password" name="password" id="log-pw" required />
+
+<input style="position : absolute;top:80%;left:80%;font-size:36px;" type="submit" value="Log In!">
+
+</form>
+</div>`;
