@@ -260,7 +260,7 @@ confirmPostUser : function(userN, valueOf) {
 if (valueOf == 0) {
 
 
-var html = new Buffer.from(fs.readFileSync(__dirname + "../index.html").toString().replace("%*%", userN));
+var html = new Buffer.from(fs.readFileSync(__dirname + "/index.html").toString().replace("%*%", userN));
 return html;
 
 } else {
